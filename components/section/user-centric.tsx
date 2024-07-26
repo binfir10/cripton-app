@@ -19,7 +19,7 @@ export default function UserCentric() {
         <h2 className="md:text-5xl max-md:max-w-[220px] text-center  text-4xl text-pretty font-jakarta">
           Make every step user-centric
         </h2>
-        <p className="text-secondary text-center w-2/3">
+        <p className="text-secondary text-center w-2/3 max-md:max-w-80">
           Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia
           et
         </p>

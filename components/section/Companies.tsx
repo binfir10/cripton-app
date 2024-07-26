@@ -22,7 +22,7 @@ export default function Companies() {
   }, [xTranslate, width])
 
   return (
-    <section className="bg-[#162446] h-28 w-full flex items-center">
+    <section className="bg-[#162446] h-28 max-md:w-dvw flex items-center">
       <div className="relative  overflow-hidden flex gap-52  ">
         <motion.div
           className="flex items-center justify-center gap-24 "
