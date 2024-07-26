@@ -18,7 +18,7 @@ export default function DistributerTeam() {
         alt=""
         width={1000}
         height={500}
-        className="max-md:object-contain w-80 md:w-10/12 "
+        className="max-md:object-contain w-96 md:w-10/12 "
       />
     </div>
   )

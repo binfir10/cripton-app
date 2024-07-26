@@ -63,7 +63,7 @@ body {
 }
 
 .text-responsive {
-  font-size: clamp(2rem, 10vw, 4rem);
+  font-size: clamp(3rem, 10vw, 4rem);
 }
 .border-custom {
   border-color: #c23893;

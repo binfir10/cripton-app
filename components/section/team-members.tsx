@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function TeamMembers() {
   return (
-    <div className="relative flex justify-evenly w-full items-center flex-col md:flex-row">
+    <div className="relative flex justify-center md:justify-evenly w-full items-center flex-col md:flex-row">
       <Image
         src={'/assets/Ellipse 176.png'}
         alt="bg"
@@ -16,7 +16,7 @@ export default function TeamMembers() {
         <h2 className="text-5xl lg:text-5xl font-semibold">
           Invite team members <br /> & enlarge your <br /> groups
         </h2>
-        <p className="font-inter text-[#767799] text-sm max-w-80 lg:max-w-[500px]">
+        <p className="font-inter text-[#767799] text-sm max-w-[300px] lg:max-w-[500px]">
           Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia
           et sint laboriosam sed ipsa sint ut voluptatum labore et possimus
           voluptas. Lorem ipsum dolor sit, amet consectetur adipisicing elit.

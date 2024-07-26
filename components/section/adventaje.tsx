@@ -5,7 +5,7 @@ export default function Adventaje() {
   return (
     <section className="flex flex-col items-center  gap-11 py-20">
       <div className="flex flex-col items-center gap-5">
-        <h2 className="text-5xl md:text-5xl font-semibold font-jakarta">
+        <h2 className="text-5xl px-1 text-center md:text-5xl font-semibold font-jakarta">
           Automated portfolio tracking
         </h2>
         <p className="text-secondary text-center w-2/3 max-md:max-w-80">
@@ -39,20 +39,20 @@ const items = [
     title: 'Connect wallet & exchanges',
     description:
       'Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut volup.',
-    icon: <Wallet2Icon className="w-24 h-24" />,
+    icon: <Wallet2Icon className="max-md:w-16 max-md:h-16 w-24 h-24" />,
   },
   {
     id: 2,
     title: 'Connect wallet & exchanges',
     description:
       'Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut volup.',
-    icon: <ViewIcon className="w-24 h-24" />,
+    icon: <ViewIcon className="w-24 h-24 max-md:w-16 max-md:h-16" />,
   },
   {
     id: 3,
     title: 'Connect wallet & exchanges',
     description:
       'Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut volup.',
-    icon: <FileTextIcon className="w-24 h-24" />,
+    icon: <FileTextIcon className="w-24 h-24 max-md:w-16 max-md:h-16" />,
   },
 ]

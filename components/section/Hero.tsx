@@ -17,6 +17,7 @@ export default function Hero() {
             width={150}
             height={130}
           />
+          g
           <h2 className="font-jakarta text-responsive text-center lg:text-start w-10/12 lg:w-8/12 xl:w-2/4 text-balance">
             live and <br /> on-demand trading
           </h2>
