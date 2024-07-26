@@ -3,31 +3,80 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground: #f9f9f9;
+  --secondary: #767799;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground: #f9f9f9;
+    --secondary: #767799;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--foreground);
+  font-family: var(--font-inter), var(--font-jakarta);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #12132a;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.mybox {
+  position: relative;
+}
+
+.mybox:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 20%;
+  width: 65%;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+.slider-horizontal {
+  display: flex;
+  animation: swipe 5000ms linear infinite backwards;
+}
+
+.text-responsive {
+  font-size: clamp(2rem, 10vw, 4rem);
+}
+.border-custom {
+  border-color: #c23893;
+}
+
+.border-custom-left {
+  border-left-width: 0.5px;
+}
+
+.border-custom-right {
+  border-right-width: 0.5px;
+}
+
+.border-custom-top {
+  border-top-width: 0.5px;
 }

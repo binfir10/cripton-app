@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        foreground: "var(--foreground)",
+        secondary: "var(--secondary)",
+      },
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        jakarta: ["var(--font-jakarta)"],
+        poppins: ["var(--font-poppins)"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
