@@ -23,7 +23,7 @@ export default function Viewing() {
       <article className="font-jakarta flex flex-col max-md:items-center md:justify-between gap-6">
         <div className="flex flex-col gap-2 max-md:items-center">
           <h3 className="text-[#C23893] text-sm font-normal">How it works</h3>
-          <h2 className="text-3xl font-semibold max-w-[250px] text-center md:text-start md:max-w-[300px] line-clamp-3">
+          <h2 className="text-5xl font-semibold max-w-[250px] text-center md:text-start md:max-w-[300px] line-clamp-3">
             Viewing long- term and short -term forcast
           </h2>
         </div>

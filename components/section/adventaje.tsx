@@ -5,7 +5,7 @@ export default function Adventaje() {
   return (
     <section className="flex flex-col items-center  gap-11 py-20">
       <div className="flex flex-col items-center gap-5">
-        <h2 className="text-2xl md:text-5xl font-jakarta">
+        <h2 className="text-5xl md:text-5xl font-semibold font-jakarta">
           Automated portfolio tracking
         </h2>
         <p className="text-secondary text-center w-2/3 max-md:max-w-80">

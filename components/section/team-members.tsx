@@ -13,7 +13,7 @@ export default function TeamMembers() {
       />
 
       <article className="font-jakarta flex flex-col h-full justify-around min-h-[400px]">
-        <h2 className="text-3xl lg:text-5xl">
+        <h2 className="text-5xl lg:text-5xl font-semibold">
           Invite team members <br /> & enlarge your <br /> groups
         </h2>
         <p className="font-inter text-[#767799] text-sm max-w-80 lg:max-w-[500px]">

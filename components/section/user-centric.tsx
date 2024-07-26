@@ -16,10 +16,10 @@ export default function UserCentric() {
   return (
     <section className="flex flex-col items-center gap-11 py-20">
       <div className="flex flex-col items-center gap-5">
-        <h2 className="md:text-5xl max-md:max-w-[220px] text-center  text-4xl text-pretty font-jakarta">
+        <h2 className="md:text-5xl max-md:max-w-[220px] text-center font-semibold  text-5xl text-pretty font-jakarta">
           Make every step user-centric
         </h2>
-        <p className="text-secondary text-center w-2/3 max-md:max-w-80">
+        <p className="text-secondary text-center lg:w-2/3 max-md:max-w-96">
           Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia
           et
         </p>

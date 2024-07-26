@@ -23,7 +23,7 @@ export default function FeaturesPremium() {
       <article className="font-jakarta flex flex-col gap-3">
         <div className="gap-0 flex flex-col">
           <h3 className="text-[#C23893] text-sm font-normal">FEATURES</h3>
-          <h2 className="text-3xl">Crypo Premium</h2>
+          <h2 className="text-5xl font-semibold">Crypo Premium</h2>
         </div>
 
         {criptoPremium.map(item => {
