@@ -23,11 +23,11 @@ export default function Viewing() {
       <article className="font-jakarta flex flex-col max-md:items-center md:justify-between gap-6">
         <div className="flex flex-col gap-2 max-md:items-center">
           <h3 className="text-[#C23893] text-sm font-normal">How it works</h3>
-          <h2 className="text-5xl font-semibold max-w-[300px] text-center md:text-start md:max-w-[300px] line-clamp-4">
+          <h2 className="text-5xl font-semibold max-w-[350px] text-center md:text-start md:max-w-[300px] line-clamp-4">
             Viewing long- term and short -term forcast
           </h2>
         </div>
-        <p className="font-inter text-[#767799] text-sm max-w-[300px] lg:max-w-[500px]">
+        <p className="font-inter text-[#767799] text-sm max-w-96 lg:max-w-[500px]">
           Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia
           et sint laboriosam sed ipsa sint ut voluptatum labore et possimus
           voluptas. Lorem ipsum dolor sit, amet consectetur adipisicing elit.

@@ -20,7 +20,7 @@ export default function Testimonials() {
           {' " '}
         </span>
       </div>
-      <p className="font-inter text-[#767799] text-sm max-w-[250px] md:max-w-[500px] text-center">
+      <p className="font-inter text-[#767799] text-sm max-w-96 md:max-w-[500px] text-center">
         Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia
         et sint laboriosam sed ipsa sint ut voluptatum labore et.
       </p>

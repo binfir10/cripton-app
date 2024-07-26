@@ -9,7 +9,7 @@ export default function Hero() {
       <section className="flex relative container flex-col lg:flex-row justify-end lg:items-end items-center gap-10 xl:px-20 max-w-[1400px]">
         <LeftFilter />
 
-        <div className=" container flex flex-col  items-center lg:items-start lg:py-16 gap-8 ">
+        <div className=" md:container flex flex-col  items-center lg:items-start lg:py-16 gap-8 ">
           <Image
             src="/assets/Arrow_03.png"
             alt="hero"
@@ -17,11 +17,10 @@ export default function Hero() {
             width={150}
             height={130}
           />
-          g
-          <h2 className="font-jakarta text-responsive text-center lg:text-start w-10/12 lg:w-8/12 xl:w-2/4 text-balance">
+          <h2 className="font-jakarta text-responsive font-bold text-center max-lg:leading-tight lg:text-start w-10/12 lg:w-8/12 xl:w-2/4 text-balance">
             live and <br /> on-demand trading
           </h2>
-          <p className="font-inter text-base px-10 lg:px-0 lg:w-2/3 max-md:max-w-96 text-secondary text-center lg:text-start">
+          <p className="font-inter text-base px-10 lg:px-0 lg:w-2/3 max-lg:max-w-[400px] text-secondary text-center lg:text-start">
             Lorem ipsum dolor sit amet. Qui consequatur sint 33 volupta officia
             et sint laboriosam sed ipsa sint ut voluptatum labore et possimus
             voluptas.

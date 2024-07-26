@@ -12,11 +12,11 @@ export default function TeamMembers() {
         className="absolute right-0  -z-10 -top-72 w-[900px] h-[1000px] "
       />
 
-      <article className="font-jakarta flex flex-col h-full justify-around min-h-[400px]">
+      <article className="font-jakarta flex flex-col h-full max-md:items-center max-md:text-center gap-5 md:justify-around min-h-[400px]">
         <h2 className="text-5xl lg:text-5xl font-semibold">
           Invite team members <br /> & enlarge your <br /> groups
         </h2>
-        <p className="font-inter text-[#767799] text-sm max-w-[300px] lg:max-w-[500px]">
+        <p className="font-inter text-[#767799] text-sm max-w-96 lg:max-w-[500px]">
           Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia
           et sint laboriosam sed ipsa sint ut voluptatum labore et possimus
           voluptas. Lorem ipsum dolor sit, amet consectetur adipisicing elit.

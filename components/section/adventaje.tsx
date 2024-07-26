@@ -8,7 +8,7 @@ export default function Adventaje() {
         <h2 className="text-5xl px-1 text-center md:text-5xl font-semibold font-jakarta">
           Automated portfolio tracking
         </h2>
-        <p className="text-secondary text-center w-2/3 max-md:max-w-80">
+        <p className="text-secondary text-center w-2/3 max-md:max-w-96">
           Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia
           et sint laboriosam sed ipsa sint ut voluptatum labore et possimus
           voluptas.
